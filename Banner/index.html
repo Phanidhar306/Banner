@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banner Slideshow</title>
+    <link rel="stylesheet" href="weight.css" />
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <a href="https://www.imdb.com/title/tt0454876/">
+          <img
+            src="https://assets.mubicdn.net/images/notebook/post_images/12001/images-w1400.jpg?1348745411"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+      <div class="mySlides fade">
+        <a
+          href="https://www.imdb.com/title/tt4912910/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_mission%2520fall"
+        >
+          <img
+            src="https://ntvb.tmsimg.com/assets/p13492451_v_h10_ay.jpg?w=960&h=540"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+      <div class="mySlides fade">
+        <a
+          href="https://www.imdb.com/title/tt4154756/?ref_=nv_sr_srsg_3_tt_6_nm_2_in_0_q_aven"
+        >
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1522965695472-R7I5S9TGGO3GDAE7TG9Q/avengers-infinity-war-concept-art-imax-poster-and-black-order-promo-art2"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script src="Char.js"></script>
+    <div class="dot-container">
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </body>
+</html>
